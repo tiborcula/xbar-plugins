@@ -14,6 +14,7 @@ cycles=$(system_profiler SPPowerDataType | grep "Cycle Count" | awk '{print $3}'
 #echo "♾ $cycles"
 #echo "♽ $cycles"
 
+echo "♾ $cycles"
 
 echo "---"
 
